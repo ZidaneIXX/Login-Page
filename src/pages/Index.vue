@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-     <q-card flat bordered class="my-card text-center">
+     <q-card bordered class="my-card text-center">
       <q-card-section>
        <q-input outlined v-model="text" label="Email or Phone Number" />
       <q-input outlined v-model="text" label="Password" class="q-mt-sm" />
@@ -11,7 +11,7 @@
       <q-separator inset />
 
       <q-card-section>
-<q-btn color="green-7" label="Create New Account" style="padding:0" no-caps></q-btn>
+<q-btn to="/register" color="green-7" label="Create New Account" style="padding:0" no-caps></q-btn>
       </q-card-section>
     </q-card>
   </q-page>
