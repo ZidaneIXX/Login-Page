@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
      <q-card flat bordered class="my-card text-center">
       <q-card-section>
-       <q-input outlined v-model="text" label="Email or phone number" />
+       <q-input outlined v-model="text" label="Email or Phone Number" />
       <q-input outlined v-model="text" label="Password" class="q-mt-sm" />
        <q-btn color="blue-10" label="Login" class="q-mt-sm full-width" no-caps />
        <a href="#" style="font-size:10px;text-decoration:none">Forgot account?</a>
